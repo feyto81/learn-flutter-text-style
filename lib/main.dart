@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +15,10 @@ class MyApp extends StatelessWidget {
           title: Text("Latihan Text Style"),
         ),
         body: Center(
-          child: Text("Ini adalah Text"),
+          child: Text(
+            "Ini adalah Text",
+            style: TextStyle(fontFamily: "CrashLandingBB", fontSize: 30),
+          ),
         ),
       ),
     );
